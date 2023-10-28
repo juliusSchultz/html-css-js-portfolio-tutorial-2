@@ -318,6 +318,10 @@ section {
 }
 
 .details-container-placeholder {
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+
   padding: 1.5rem;
   flex: 1;
   background: white;
@@ -423,6 +427,10 @@ article .icon {
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column-reverse;
+  }
 }
 
 .contact-info-container {
